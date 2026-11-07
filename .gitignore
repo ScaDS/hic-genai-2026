@@ -1,0 +1,14 @@
+.DS_Store
+.idea
+.ipynb_checkpoints
+temp*
+*.pyc
+.env
+Untitled*
+.venv/
+.langflow-data/
+docs/_build/
+/workshop/
+release/
+langflow-workshop.json
+scripts
