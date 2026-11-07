@@ -9,11 +9,6 @@ parts:
     chapters:
     - file: setup.md
 
-  - caption: Exercises
-    chapters:
-    - file: 
-    
-
 
     
   - caption: Links

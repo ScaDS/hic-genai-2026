@@ -48,9 +48,29 @@ A browser will open and show you the following web page. In the section `Noteboo
 
 ![img.png](images/start_jupyter_lab.png)
 
-In the new notebook, click in the first code cell, enter `print("Hello world")` and hit SHIFT+ENTER on your keyboard. 
-If everything is installed properly, it should look like this:
 
-![img.png](images/hello_world.png)
+
+Start a new notebook.
+Enter the following code. When asked, paste your Blablador API key and hit ENTER.
+
+```
+from bia_bob import config_blablador, bob
+
+config_blablador()
+```
+
+![](images/jup4nfdi_7.png)
+
+Afterwards, try to communicate with `%%bob` like this:
+
+```
+%%bob
+Print hello world
+```
+
+If `%%bob` answers with a reasonable code-snippet, your installation was successful. 
+
+![](images/jup4nfdi_8.png)
+
 
 
