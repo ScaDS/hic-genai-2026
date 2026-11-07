@@ -230,8 +230,18 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Exercises</span></p>
 <ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="demo.html">AI-assisted code-generation for image data analysis</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="solution_demo.html">AI-assisted code-generation for image data analysis</a></li>
+</ul>
+</details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="slicing.html">Slicing through 3D data</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="solution_slicing.html">Slicing through 3D data</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="generate_notebook.html">AI-assisted Notebook generation</a></li>
+
+<li class="toctree-l1 has-children"><a class="reference internal" href="statistical_testing.html">Statistical testing</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="solution_statistical_testing.html">Statistical testing</a></li>
 </ul>
 </details></li>
 </ul>
@@ -448,7 +458,7 @@
                   
   <section class="tex2jax_ignore mathjax_ignore" id="how-generative-ai-impacts-image-data-science">
 <h1>How Generative AI impacts Image Data Science<a class="headerlink" href="#how-generative-ai-impacts-image-data-science" title="Link to this heading">#</a></h1>
-<p>This page contains materials for the GenAI Satellite Workshop at the <a class="reference external" href="https://events.hifis.net/event/2690/timetable/">Helmholtz Imaging Conference 2026</a>. After three introductory presentations, we will dive into using Large Language Models for code generation and data analysis.</p>
+<p>This page contains materials for the GenAI Satellite Workshop at the <a class="reference external" href="https://events.hifis.net/event/2690/timetable/">Helmholtz Imaging Conference 2026</a>. After three introductory presentations, we will dive into using GenAI-assisted code generation for image data analysis.</p>
 <p>Slides will be made available e.g. via Zenodo and linked from here.</p>
 <section id="target-audience">
 <h2>Target audience<a class="headerlink" href="#target-audience" title="Link to this heading">#</a></h2>
@@ -458,8 +468,14 @@
 <h2>How to use these materials<a class="headerlink" href="#how-to-use-these-materials" title="Link to this heading">#</a></h2>
 <p>Before the course please make sure to setup your Jupyter environment as explained <a class="reference internal" href="setup.html"><span class="std std-doc">on this page</span></a>.</p>
 <p>Within Jupyter, create a new notebook and copy/paste prompts or code-snippets over into your empty notebook. Modify prompts to see how outputs change. Start new notebooks whenever you start a new exercise. The AI-assistant will be confused otherwise.</p>
-<p>For analysing data, you can download it from <a class="reference internal" href="#"><span class="xref myst">this folder</span></a> and then upload it to Jupyter using this button:</p>
+<p>For analysing data, you can download it from <a class="reference external" href="https://doi.org/10.5281/zenodo.24033765">this repository</a> and then upload it to Jupyter using this button:
+<img alt="" src="_images/upload_data.png" /></p>
 <p>Note that this is the way to go in training scenarios. When working with real data, you would not upload it to Jupyter. Instead, you would enter the path to your data in the Jupyter notebooks.</p>
+<p>If you work on a single notebook or a single prompt and want to improve it step-by-step, consider restarting the kernel from time to time using this menu:</p>
+<p><img alt="" src="_images/restart_kernel.png" /></p>
+<p>When you are done with a prompt and want to save it in the notebook, but prevent that it will be executed again, change the prompt’s cell type to “raw” in this pulldown:</p>
+<p><img alt="" src="_images/raw_cells.png" /></p>
+<p>Note: Conserving prompts that were used to generate code is considered good scientific practice.</p>
 </section>
 <section id="acknowledgements">
 <h2>Acknowledgements<a class="headerlink" href="#acknowledgements" title="Link to this heading">#</a></h2>
