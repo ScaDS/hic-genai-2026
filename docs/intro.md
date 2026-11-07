@@ -14,7 +14,8 @@ Before the course please make sure to setup your Jupyter environment as explaine
 
 Within Jupyter, create a new notebook and copy/paste prompts or code-snippets over into your empty notebook. Modify prompts to see how outputs change. Start new notebooks whenever you start a new exercise. The AI-assistant will be confused otherwise.
 
-For analysing data, you can download it from [this folder]() and then upload it to Jupyter using this button:
+For analysing data, you can download it from [this repository](https://doi.org/10.5281/zenodo.24033765) and then upload it to Jupyter using this button:
+![](images/upload_data.png)
 
 Note that this is the way to go in training scenarios. When working with real data, you would not upload it to Jupyter. Instead, you would enter the path to your data in the Jupyter notebooks. 
 
