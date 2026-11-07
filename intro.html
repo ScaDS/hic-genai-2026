@@ -223,7 +223,17 @@
         </ul>
         <p aria-level="2" class="caption" role="heading"><span class="caption-text">Preparation</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="setup.html">Preparing the session</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="setup.html">Preparing the session</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="setup_jup_nfdi.html">Setting up Jupyter4NFDI environment</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Exercises</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="slicing.html">Slicing through 3D data</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="solution_slicing.html">Slicing through 3D data</a></li>
+</ul>
+</details></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Links</span></p>
 <ul class="nav bd-sidenav">
@@ -423,6 +433,7 @@
             <nav aria-label="Page">
                 <ul class="pst-show_toc_level nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#target-audience">Target audience</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-use-these-materials">How to use these materials</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgements">Acknowledgements</a></li>
 </ul>
             </nav>
@@ -442,23 +453,21 @@
 <section id="target-audience">
 <h2>Target audience<a class="headerlink" href="#target-audience" title="Link to this heading">#</a></h2>
 <p>The exercises are written for scientists from all disciplines who work with imaging data and have basic understanding of Python programming.</p>
-<p>Before the course please make sure to install Python and some libraries as explained <a class="reference internal" href="setup.html"><span class="std std-doc">on this page</span></a>.</p>
-<p>Afterwards, you can start Jupyter like this:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">activate</span> <span class="n">llm</span><span class="o">-</span><span class="n">da</span>
-</pre></div>
-</div>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">jupyter</span> <span class="n">lab</span>
-</pre></div>
-</div>
-<p><img alt="" src="images/terminal.png" /></p>
-<p>After executing this, you can start Jupyter Lab. On the left side you find folders with exercise notebooks and on the right side you find the notebooks to work on.</p>
-<p><img alt="" src="images/jupyterlab.png" /></p>
-<p>You can then copy code snippets from the exercises into your Jupyter lab.</p>
+</section>
+<section id="how-to-use-these-materials">
+<h2>How to use these materials<a class="headerlink" href="#how-to-use-these-materials" title="Link to this heading">#</a></h2>
+<p>Before the course please make sure to setup your Jupyter environment as explained <a class="reference internal" href="setup.html"><span class="std std-doc">on this page</span></a>.</p>
+<p>Within Jupyter, create a new notebook and copy/paste prompts or code-snippets over into your empty notebook. Modify prompts to see how outputs change. Start new notebooks whenever you start a new exercise. The AI-assistant will be confused otherwise.</p>
+<p>For analysing data, you can download it from <a class="reference internal" href="#"><span class="xref myst">this folder</span></a> and then upload it to Jupyter using this button:</p>
+<p>Note that this is the way to go in training scenarios. When working with real data, you would not upload it to Jupyter. Instead, you would enter the path to your data in the Jupyter notebooks.</p>
 </section>
 <section id="acknowledgements">
 <h2>Acknowledgements<a class="headerlink" href="#acknowledgements" title="Link to this heading">#</a></h2>
+<p>We acknowledge the <a class="reference external" href="https://helmholtz.cloud/services/?serviceID=d7d5c597-a2f6-4bd1-b71e-4d6499d98570">Helmholtz Blablador service</a> hosted at the Helmholtz Center Jülich which we are primarily using for this training.</p>
 <p>We acknowledge the financial support by the Federal Ministry of Education and Research of Germany and by Sächsische Staatsministerium für Wissenschaft, Kultur und Tourismus in the programme Center of Excellence for AI-research „Center for Scalable Data Analytics and Artificial Intelligence Dresden/Leipzig“, project identification number: <a class="reference external" href="http://ScaDS.AI">ScaDS.AI</a></p>
 </section>
+<div class="toctree-wrapper compound">
+</div>
 <div class="toctree-wrapper compound">
 </div>
 <div class="toctree-wrapper compound">
@@ -523,6 +532,7 @@
   <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
     <ul class="pst-show_toc_level nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#target-audience">Target audience</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-use-these-materials">How to use these materials</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgements">Acknowledgements</a></li>
 </ul>
   </nav></div>
