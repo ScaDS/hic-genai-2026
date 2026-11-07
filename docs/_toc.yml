@@ -14,6 +14,11 @@ parts:
 
   - caption: Exercises
     chapters:
+    - file: demo
+      sections:
+      - file: solution_demo
+    
+    
     - file: slicing
       sections:
       - file: solution_slicing
