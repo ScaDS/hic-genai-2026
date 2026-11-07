@@ -8,7 +8,15 @@ parts:
   - caption: Preparation
     chapters:
     - file: setup.md
+      sections:
+      - file: setup_jup_nfdi.md
+      - file: setup_python_locally.md.md
 
+  - caption: Exercises
+    chapters:
+    - file: slicing.md
+      sections:
+      - file: solution_slicing.md
 
     
   - caption: Links
