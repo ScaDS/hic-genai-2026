@@ -8,30 +8,18 @@ parts:
   - caption: Preparation
     chapters:
     - file: setup.md
-      sections:
-      - file: langflow-setup.md
-      - file: obsidian-setup.md
-      - file: install_python.md
-    
+
   - caption: Exercises
     chapters:
-    - file: translate_speech.md
-    - file: technical-text-translation.md
-    - file: word-cloud-chat.md
-      sections:
-      - file: word-cloud-chat-solution.md
-    - file: word-cloud.ipynb
-      sections:
-      - file: word-cloud-solution.ipynb
-    - file: langflow-workshop.md
-    - file: obsidian-workshop.md
+    - file: 
+    
 
 
     
   - caption: Links
     chapters:
-    - url: https://doi.org/10.5281/zenodo.23362226
-      title: Slides
+    #- url: https://doi.org/10.5281/zenodo.23362226
+    #  title: Slides
     - url: https://creativecommons.org/licenses/by/4.0/
       title: License CC-BY 4.0
     - file: imprint
