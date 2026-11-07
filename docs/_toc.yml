@@ -14,9 +14,19 @@ parts:
 
   - caption: Exercises
     chapters:
-    - file: slicing.md
+    - file: slicing
       sections:
-      - file: solution_slicing.md
+      - file: solution_slicing
+    
+    - file: generate_notebook
+      sections:
+      - file: solution_generate_notebook
+
+    - file: statistical_testing
+      sections:
+      - file: solution_statistical_testing
+
+    
 
     
   - caption: Links
