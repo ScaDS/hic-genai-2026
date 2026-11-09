@@ -31,8 +31,10 @@ parts:
       sections:
       - file: solution_statistical_testing
 
-    
-
+  - caption: Advanced
+    chapters:
+    - file: accessing_blablador.ipynb
+    - file: vision_blablador.ipynb
     
   - caption: Links
     chapters:
