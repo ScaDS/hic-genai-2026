@@ -10,7 +10,7 @@ parts:
     - file: setup.md
       sections:
       - file: setup_jup_nfdi.md
-      - file: setup_python_locally.md.md
+      - file: setup_python_locally.md
 
   - caption: Exercises
     chapters:

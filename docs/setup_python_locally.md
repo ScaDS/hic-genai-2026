@@ -1,6 +1,6 @@
 # Setting up your computer
 
-One way of doing this, is by managing *Conda* environments ([read more](https://focalplane.biologists.com/2022/12/08/managing-scientific-python-environments-using-conda-mamba-and-friends/)
+One way of setting up reproducible coding environments, is by managing *Conda* environments ([read more](https://focalplane.biologists.com/2022/12/08/managing-scientific-python-environments-using-conda-mamba-and-friends/))
 
 ## Step 1: Install Mini-forge
 Download and install Conda. We recommend the Conda distribution [mini-forge](https://conda-forge.org/download/).
