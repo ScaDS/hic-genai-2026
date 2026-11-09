@@ -36,6 +36,7 @@ parts:
     - file: accessing_blablador.ipynb
     - file: non-deterministic-llms.ipynb
     - file: vision_blablador.ipynb
+    - file: black-box-agents-experiment.ipynb
     
   - caption: Links
     chapters:
