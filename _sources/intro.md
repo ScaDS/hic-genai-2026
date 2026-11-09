@@ -1,10 +1,11 @@
 # How Generative AI impacts Image Data Science
 
-This page contains materials for the GenAI Satellite Workshop at the [Helmholtz Imaging Conference 2026](https://events.hifis.net/event/2690/timetable/). After three introductory presentations, we will dive into using GenAI-assisted code generation for image data analysis. 
+This page contains materials for the GenAI Satellite Workshop at the [Helmholtz Imaging Conference 2026](https://events.hifis.net/event/3981/). After three introductory presentations, we will dive into using GenAI-assisted code generation for image data analysis in an interactive hacking session. 
 
-Slides will be made available e.g. via Zenodo and linked from here.
+Slides are available online:
+* [Generative Artificial Intelligence for Image Data Science](https://doi.org/10.5281/zenodo.24082015) (Robert Haase, ScaDS.AI, Leipzig University)
 
-## Target audience
+## Practical session: target audience
 
 The exercises are written for scientists from all disciplines who work with imaging data and have basic understanding of Python programming.
 
