@@ -1,4 +1,4 @@
-v# Preparing the session
+# Preparing the session
 
 To prepare this training optimally, please 
 1. retrive an API-Key to Blablador as explained on [this page](https://sdlaml.pages.jsc.fz-juelich.de/ai/guides/blablador_api_access/).

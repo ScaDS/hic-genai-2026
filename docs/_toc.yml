@@ -34,6 +34,7 @@ parts:
   - caption: Advanced
     chapters:
     - file: accessing_blablador.ipynb
+    - file: non-deterministic-llms.ipynb
     - file: vision_blablador.ipynb
     
   - caption: Links
