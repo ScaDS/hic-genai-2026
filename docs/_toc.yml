@@ -25,7 +25,7 @@ parts:
     
     - file: generate_notebook
       sections:
-      - file: solution_generate_notebook
+      - file: solution_generate_notebook.ipynb
 
     - file: statistical_testing
       sections:
