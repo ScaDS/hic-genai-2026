@@ -3,6 +3,7 @@
 This page contains materials for the GenAI Satellite Workshop at the [Helmholtz Imaging Conference 2026](https://events.hifis.net/event/3981/). After three introductory presentations, we will dive into using GenAI-assisted code generation for image data analysis in an interactive hacking session. 
 
 Slides are available online:
+* [From web form to AI agent: the Helmholtz Model Zoo REST AP](https://syncandshare.desy.de/index.php/s/6kKzTLHkwJkdj9K) (Hans Werners, DESY)
 * [Generative Artificial Intelligence for Image Data Science](https://doi.org/10.5281/zenodo.24082015) (Robert Haase, ScaDS.AI, Leipzig University)
 
 ## Practical session: target audience
